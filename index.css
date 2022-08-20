@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1,h4{
+    margin: 10px;
+}
+.pet_form_box{
+    max-width: 350px;
+    max-height: 600px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.pet_form_img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    object-fit: cover;
+}
+
+#upload_image{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* display: none; */
+}
+#photo_return{
+    position: absolute;
+    top:5px;
+    right:5px;
+    font-size: 1.2rem;
+    color: red;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+}
+#photo_submit{
+    position: absolute;
+    top:5px;
+    right:35px;
+    color: blue;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+}
+.result_dog{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.result_dog img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.result_cat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.result_cat img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
